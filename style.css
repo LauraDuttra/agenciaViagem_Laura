@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=League+Spartan:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
 
 /* reset das configurações */
 *{
@@ -8,127 +8,130 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poiret One", serif;
-    list-style: nome;
-}
-@import url('https://fonts.googleapis.com/css?family=Dancing+Script:wght@600&display swap');
-@import url('https://fonts.googleapis.com/css?family=Poiret+One&display swap');
-Classroom
-
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poiret One", serif;
     list-style: none;
 }
-body {
+
+body{
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-width: 100vh;
 }
 
-header {
-    background:#f2b90c;
+header{
+    background-color: #F2B90C ;
     color: white;
     padding: 15px;
     text-align: center;
 }
+
 h1{
-    font-family: "Dancing Script", serif;
+    font-family: "kaushan Script", serif;
     font-size: 2.5rem;
 }
-nav {
-    display: flex; gap: 20px;
-    margin-top: 10px;
+
+nav{
+    display: flex;
     justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
 }
-nav a {
+
+nav a{
     color: white;
     text-decoration: none;
     font-weight: bold;
 }
-.container {
+
+.container{
     display: flex;
     flex: 1;
-    padding: 20px;
+    padding: 80px;
     gap: 20px;
     flex-wrap: wrap;
-    background: url(img/london.jpg) no-repeat center fixed;
+    background: url(img/london.jpg);
     background-size: cover;
 }
-.sidebar {
+
+.sidebar{
     flex: 1;
     min-width: 200px;
-    background: #e6ddb1;
+    background: #E6DDB1;
     padding: 15px;
     border-radius: 8px;
 }
-.main-content {
+
+.main-content{
     flex: 2;
     min-width: 300px;
     padding: 15px;
 }
-.subtittle{
-    color:#f1f1f1;
-    font-size: 2.5rem;
 
+.subtittle{
+    color: #f1f1f1;
+    font-size: 2.5rem;
 }
+
 .secondary{
     flex: 1;
     min-width: 200px;
-    background: #e6ddb1;
+    background-color: #E6DDB1;
     padding: 15px;
     border-radius: 8px;
 }
-li {
+
+li{
     padding: 9px;
 }
 
-footer {
-    background:#f2b90c;
+footer{
+    background-color: #F2B90C;
     color: white;
     text-align: center;
     padding: 10px;
     margin-top: auto;
 }
-form {
+
+form{
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-input, button {
-    background-color: #e6ddb1
+
+input, button{
+    background-color: #E6DDB1;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    }
-button {
-    background:#f2b90c;
+}
+
+button{
+    background-color: #F2B90C;
     color: #ccc;
     cursor: pointer;
     font-weight: bold;
     font-size: 1rem;
 }
-button:hover {
-    background:#f2b90c;
+
+
+button:hover{
+    background: #F2B90C;
 }
-img {
+
+img{
     width: 100%;
     border-radius: 5px;
 }
-img {
-    width: 100%;
-    border-radius: 5px;
-}
-@media (max-width: 768px) {
-    .container {
-    flex-direction: column;
+
+@media (max-width: 768px){
+    .container{
+        flex-direction: column;
     }
 }
+
 .logo{
-    width: 115px; /* Ajusta a largura da imagem */
-    height: auto; /* Mantém a proporção da imagem */
-    position: absolute; /* Posiciona a imagem de forma absoluta em relação ao elemento pai */
-    top: 0; /* Alinha no topo da página */
-    left: 0; /* Alinha à esquerda da página */
+        width: 115px; /* Ajusta a largura da imagem */
+        height: auto; /* Mantém a proporção da imagem */
+        position: absolute; /* Posiciona a imagem de forma absoluta em relação ao elemento pai */
+        top: 0; /* Alinha no topo da página */
+        left: 0; /* Alinha à esquerda da página */
 }
